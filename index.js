@@ -7,7 +7,7 @@ const people = [
     parents: { mothersName: "Mona", fathersName: "Abe" },
     pet: { animal: "dog", name: "Santa's Little Helper" },
     friend: { name: "Moe Szyslak", work: "owner of Moes Tavern" },
-    other_friends: ["Barney Gumble", "Carl Carlson", "Lenny Leonard"],
+    "other friends": ["Barney Gumble", "Carl Carlson", "Lenny Leonard"],
     color_cloth: "white",
   },
   {
@@ -55,7 +55,7 @@ const nameOfFirstPerson = people[0].name;
 // EXERCISE 2
 // Change the value of the variable homersOtherFriends to equal the other friends of Homer.
 
-const homersOtherFriends = people[0].other_friends;
+const homersOtherFriends = people[0]["other friends"];
 
 // EXERCISE 3
 // Change the value of the variable ageOfThirdPerson to equal the age of the third person.
